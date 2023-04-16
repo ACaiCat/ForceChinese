@@ -44,7 +44,7 @@ namespace ForceChinese
 
         public Main(Terraria.Main game) : base(game)
         {
-            //LanguageManager.Instance.SetLanguage(7);
+            LanguageManager.Instance.SetLanguage(7);
             if (Terraria.Program.LaunchParameters.ContainsKey("-lang"))
             {
                 Terraria.Program.LaunchParameters["-lang"] = "7";
